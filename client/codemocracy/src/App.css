@@ -26,6 +26,10 @@ padding: 20px;
   border-radius: 5px;
 }
 
+.bin {
+  margin-left: 110%;
+}
+
 .form {
   margin-top: 5%;
   margin-left: 37%;
@@ -44,7 +48,7 @@ padding: 20px;
 .vote {
   position: relative;
   margin-left: -23%;
-  margin-top: -16%;
+  margin-top: -23%;
 }
 
 .voteUp {

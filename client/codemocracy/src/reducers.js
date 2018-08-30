@@ -1,18 +1,40 @@
 
 import { combineReducers } from 'redux';
 
-let initialState = [];
+let initialState = 0;
 
-const topics = (state = initialState, action) => {
+
+const vote = (state = initialState, action) => {
   switch (action.type) {
-    case 'GET_TOPICS': return state;
+    case 'INCREMENT': return state + 1;
+    case 'DECREMENT': return state - 1;
     default: return state;
   }
-
 };
 
+const handleTopics = (state = [], action) => {
+  switch (action.type) {
+    case 'CREATE_TOPIC':
+      return [
+        {
+          title: action.title,
+        },
+        ...state,
+      ];
+    case 'DELETE_TOPIC':
+    return state.filter((topic) => topic._id !== action._id);
+    default: return state;
+  }
+};
+
+
+
+
+
 const reducers = combineReducers({
-  topics
+  vote,
+  handleTopics
 });
 
 export default reducers;
+

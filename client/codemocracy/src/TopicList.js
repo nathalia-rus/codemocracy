@@ -5,20 +5,13 @@ const voteupsvg = require('./voteUp.png');
 const votedownsvg = require('./voteDown.png');
 
 class TopicList extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
-        };
-    };
 
 
 render() {
     return this.props.topics.map(topic => {
       return (
        <div className="topicListContainer" >  
-
           <TopicListItem topic={topic} topics={this.props.topics}/>
-
    </div >
       )
     })
