@@ -1,21 +1,22 @@
 
 .topicListContainer {
-padding: 30px;
+padding: 20px;
   display: flex row;
   margin-left: 35%;
-  width: 20%;
-  border: black 1px solid;
+  width: 25%;
+  /* border: black 1px solid; */
   margin-top: 1%;
 }
 
 .listItemContainer {
   margin-top: 2%;
+  margin-left: 2%;
 }
 
 
 .createButton {
   position: absolute;
-  width: 7%;
+  width: 10%;
   padding: 0;
   font-weight: 600;
   text-align: center;
@@ -38,22 +39,23 @@ padding: 30px;
 
 
 .vote {
-  margin-top: -27%;
+  margin-left: -3%;
+  margin-top: 4%;
 }
 
 .voteUp {
-  width: 7.5%;
+  width: 4%;
   margin-left: 3%;
 }
 
 .voteDown {
-  width: 7.5%;
+  width: 4%;
     margin-left: 3%;
 }
 
-.content {
-  margin-left: 30%;
-
+.counter {
+  font-size: 10px;
+  margin-left: 2%;
 }
 
 h1 {

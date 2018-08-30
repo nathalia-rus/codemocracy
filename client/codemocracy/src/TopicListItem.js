@@ -25,7 +25,7 @@ class TopicListItem extends Component {
             </div>
     <div className="vote" >
       <img className="voteUp" src={voteupsvg} />
-      <p> 56789 </p>
+      <p className = "counter"> 56789 </p>
       <img className="voteDown" src={votedownsvg} />
     </div>
 
