@@ -24,7 +24,7 @@ componentDidMount = () => {
     .then(result => result.json())
     .then(topics => {
       this.setState({ topics });
-      console.log(this.state.topics);
+      // console.log(this.state.topics);
     });
 }
 

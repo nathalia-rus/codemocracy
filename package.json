@@ -1,0 +1,22 @@
+{
+  "name": "codemocracy",
+  "version": "1.0.0",
+  "description": "Simple topic list (React, Express, MongoDB) - topics can be up/down voted, removed, and added.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathalia-rus/codemocracy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathalia-rus/codemocracy/issues"
+  },
+  "homepage": "https://github.com/nathalia-rus/codemocracy#readme",
+  "dependencies": {
+    "react": "^16.4.2"
+  }
+}
