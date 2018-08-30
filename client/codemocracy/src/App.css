@@ -5,7 +5,7 @@ padding: 20px;
   margin-left: 35%;
   width: 25%;
    border: transparent 1px solid; 
-  margin-top: 1%;
+  margin-top: 3%;
 }
 
 .listItemContainer {
@@ -48,7 +48,7 @@ padding: 20px;
 .vote {
   position: relative;
   margin-left: -23%;
-  margin-top: -23%;
+  margin-top: -13%;
 }
 
 .voteUp {
