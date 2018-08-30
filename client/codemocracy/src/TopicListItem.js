@@ -20,12 +20,12 @@ class TopicListItem extends Component {
         return (
           <div> 
               <div className="content" >  
-              <h1> Porting from Angular.js to Angular 2 </h1>
-              <small className="date"> created on 30th July 1995</small>
+              <h1> {this.props.topic.title} </h1>
+              <small className="date"> {this.props.topic.published_at}</small>
             </div>
     <div className="vote" >
       <img className="voteUp" src={voteupsvg} />
-      <p className = "counter"> 56789 </p>
+      <p className = "score"> {this.props.topic.score} </p>
       <img className="voteDown" src={votedownsvg} />
     </div>
 
